@@ -948,5 +948,195 @@
     "source": "revidapi",
     "model": "nano-banana-pro",
     "media_type": "image"
+  },
+  {
+    "id": 51,
+    "title": "超现实海洋图案",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @umesh_ai — Nguồn: https://x.com/umesh_ai/status/1925424557638500838",
+    "prompt": "Create a hyper-realistic image where [SHAPE] shape is formed by the magical parting of [wavy] blue ocean, with the [SHAPE] shape being a [COLOUR] empty land. The top view should show the water being pushed aside by an unseen force, creating the [SHAPE] with an ultra-thin line. The stark [COLOR] color of the [SHAPE] interior should contrast with the vibrant blue water around it, emphasizing the supernatural effect as if the water is being parted to reveal the [SHAPE] shape distinctly.",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21170.jpeg",
+    "date": "2026-04-28",
+    "popular": 2,
+    "source_id": 21170,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 52,
+    "title": "通过钥匙孔看世界",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @icreatelife — Nguồn: https://x.com/icreatelife/status/1925268371227971871",
+    "prompt": "looking through a [MATERIAL] keyhole towards a mythical [WORLD] dark fantasy, [very black background] around keyhole, sharp focus, photographic",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21169.png",
+    "date": "2026-04-28",
+    "popular": 2,
+    "source_id": 21169,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 53,
+    "title": "重新构想的玫瑰金",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @aziz4ai — Nguồn: https://x.com/aziz4ai/status/1925933649267970074",
+    "prompt": "Design a luxury-themed 1:1 image featuring a rose gold sculpture that embodies the essence of the jewelry brand “[BRAND NAME]”. The object must symbolically reflect the brand’s identity (e.g., falcon for Cartier, ring for Tiffany & Co., palm tree for Swarovski, camel for Prada). Embed premium crystal textures into key parts of the sculpture (e.g., wings, gem, leaves, or hump) to match the brand’s signature elegance. Use the brand’s iconic background color (e.g., Tiffany Blue, Swarovski White, Cartier Beige, Prada Sand) and place the official logo beneath the sculpture. Add a bold two-word slogan that aligns with the brand’s tone. Lighting should be pure white with high Kelvin value to ensure clarity and prevent yellow tint. The result must feel editorial, artistic, and visually exquisite.",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21168.jpeg",
+    "date": "2026-04-28",
+    "popular": 13,
+    "source_id": 21168,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 54,
+    "title": "品牌折叠纸",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @HBCoop_ — Nguồn: https://x.com/HBCoop_/status/1925600123200881024",
+    "prompt": "A flat branded paper folds itself into the full 3D shape of a [insert product or item, e.g. “Coca-Cola bottle”, “Nike sneaker”, “Big Mac”], mid-motion. \n\nThe paper colors match the [insert brand name] brand’s signature palette and the natural colors of the item (e.g., [describe key colors or ingredients, like “red and white for Coca-Cola”, “brown, green, yellow for Big Mac”]).\n\nDramatic studio lighting, origami texture detail, soft gradient shadows. Stylized with Japanese minimalism and elegant negative space. The scene captures a clean, elevated transformation from flat brand identity into sculptural product form.",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21167.png",
+    "date": "2026-04-28",
+    "popular": 3,
+    "source_id": 21167,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 55,
+    "title": "景观洞穴入口的形状",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @umesh_ai — Nguồn: https://x.com/umesh_ai/status/1925819339413836010",
+    "prompt": "Prompt: An image of a [TYPE] landscape, featuring a cave entrance that is shaped exactly like the outline of a [SHAPE]. The cave should blend naturally into the rugged terrain of the mountain, with the entrance forming a clear and unmistakable [SHAPE] shape. This [SHAPE] shape should be simple and defined, without intricate details, emphasizing just the overall [SHAPE] outline. The surrounding environment should include [DETAILS], but these elements should not distract from the cave's   [SHAPE]-shaped entrance. The lighting in the scene should enhance the visibility and distinctiveness of the [SHAPE]-shaped cave entrance.",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21166.png",
+    "date": "2026-04-28",
+    "popular": 3,
+    "source_id": 21166,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 56,
+    "title": "超现实主义油画",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @azed_ai — Nguồn: https://x.com/azed_ai/status/1926217150093549680",
+    "prompt": "A surreal oil painting of a [subject], executed in the style of early 20th-century dreamscapes. Melting shapes, floating forms, and swirling [color1] and [color2] brushstrokes create a dreamlike dissonance.",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21165.png",
+    "date": "2026-04-28",
+    "popular": 4,
+    "source_id": 21165,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 57,
+    "title": "霓虹灯发光的可爱动物",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @icreatelife — Nguồn: https://x.com/icreatelife/status/1923819449305509924",
+    "prompt": "bioluminescent cute [ANIMAL], kawaii, chibi, [COLOR] neon backlit, 3d cartoon, big cute bright eyes, high definition",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21164.png",
+    "date": "2026-04-28",
+    "popular": 25,
+    "source_id": 21164,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 58,
+    "title": "由鲜花组成的小房子",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @BeanieBlossom — Nguồn: https://x.com/BeanieBlossom/status/1925461720639971505",
+    "prompt": "A small house made of flowers, a tree with colorful leaves growing on top and around the door, in the style of fantasy, mountainscape in the background, natural lighting, soft colors, rich details, and a full atmosphere, subtle painterly style",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21163.jpeg",
+    "date": "2026-04-28",
+    "popular": 13,
+    "source_id": 21163,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 59,
+    "title": "有趣的毛茸茸字母",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @Anima_Labs — Nguồn: https://x.com/Anima_Labs/status/1925933980781535629",
+    "prompt": "A highly realistic 3D render of the letter [A-Z] designed as a full-body fluffy monster. The letter shape itself is the creature’s body — no separate head or limbs. The eyes, mouth, and other monster features are embedded naturally into the letter form. The monster expresses a [mischievous / grumpy / shy / joyful / sleepy / surprised / confident] emotion through its eyes and mouth shape. The texture is dense, soft, and realistic fur, with subtle volume and shadow. The color palette is bold but clean — solid vibrant tones like mint, lilac, sky blue, or coral (avoid rainbow gradients). Studio lighting on a simple pastel background. No hats, no party props — just a minimal, high-quality character design with playful expression.",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21162.png",
+    "date": "2026-04-28",
+    "popular": 32,
+    "source_id": 21162,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 60,
+    "title": "三种形状和三种颜色",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @umesh_ai — Nguồn: https://x.com/umesh_ai/status/1925569394924740817",
+    "prompt": "Create a minimalist image of a [SUBJECT] using three geometric shapes, using a different color in each shape",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21161.jpeg",
+    "date": "2026-04-28",
+    "popular": 3,
+    "source_id": 21161,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
   }
 ]

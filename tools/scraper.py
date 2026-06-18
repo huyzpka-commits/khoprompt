@@ -128,17 +128,6 @@ def map_to_website_format(detail, idx, local_image=None):
     created_at = detail.get("created_at") or ""
     likes = detail.get("likes_count") or 0
     views = detail.get("views_count") or 0
-    """Convert revidapi detail object to website prompts.json format."""
-    title = detail.get("title") or "Untitled prompt"
-    prompt_text = detail.get("prompt_text") or ""
-    description = detail.get("description") or ""
-    model = detail.get("model") or "unknown"
-    category = detail.get("category") or "general"
-    media_type = detail.get("media_type") or "image"
-    output_url = detail.get("output_url") or ""
-    created_at = detail.get("created_at") or ""
-    likes = detail.get("likes_count") or 0
-    views = detail.get("views_count") or 0
 
     # Try to parse ISO date; fallback to today
     try:
@@ -207,12 +196,14 @@ def main():
                         help="Delay in seconds between detail requests")
     parser.add_argument("--page-delay", type=float, default=1.0,
                         help="Delay in seconds between list pages")
-    parser.add_argument("--output", type=str, default="data/revid_prompts.json",
-                        help="Output JSON file path")
+    parser.add_argument("--output", type=str, default="data/prompts.json",
+                        help="Output JSON file path for the website")
     parser.add_argument("--raw-output", type=str, default="data/revid_prompts_raw.json",
                         help="Raw combined output file path")
     parser.add_argument("--resume", action="store_true",
                         help="Resume from existing raw output file")
+    parser.add_argument("--merge", action="store_true",
+                        help="Merge new prompts into existing output instead of overwriting")
     parser.add_argument("--media-type", type=str, default="image",
                         help="Filter by media_type: image, video, or all")
     parser.add_argument("--download-images", action="store_true",
@@ -323,6 +314,7 @@ def main():
     image_paths = {}  # source_id -> local path
     if args.download_images:
         print(f"\nDownloading images to {args.images_dir}...")
+        skipped_existing = 0
         for i, detail in enumerate(details):
             source_id = detail.get("id")
             output_url = detail.get("output_url") or ""
@@ -330,27 +322,58 @@ def main():
                 continue
             local_path = os.path.join(args.images_dir, os.path.basename(local_image_path(source_id, output_url)))
             rel_path = local_path.replace("\\", "/")
+
+            # Skip if image already exists locally
+            if os.path.exists(local_path) and os.path.getsize(local_path) > 0:
+                image_paths[source_id] = rel_path
+                skipped_existing += 1
+                continue
+
             print(f"[{i+1}/{len(details)}] Download image for prompt {source_id}...")
             if download_image(output_url, local_path):
                 image_paths[source_id] = rel_path
             else:
                 image_paths[source_id] = output_url
             time.sleep(args.image_delay)
-        print(f"Downloaded images for {len(image_paths)} prompts")
+        print(f"Downloaded images for {len(image_paths)} prompts ({skipped_existing} already existed)")
 
     # Convert to website format
     website_prompts = []
-    for idx, detail in enumerate(details, start=1):
+    existing_source_ids = set()
+
+    if args.merge and os.path.exists(args.output):
+        print(f"\nMerging with existing {args.output}...")
+        with open(args.output, "r", encoding="utf-8") as f:
+            existing = json.load(f)
+        for p in existing:
+            sid = p.get("source_id")
+            if sid:
+                existing_source_ids.add(sid)
+            website_prompts.append(p)
+        print(f"Loaded {len(website_prompts)} existing prompts")
+
+    new_count = 0
+    for detail in details:
         source_id = detail.get("id")
+        if source_id in existing_source_ids:
+            continue
+        existing_source_ids.add(source_id)
         local_img = image_paths.get(source_id)
-        mapped = map_to_website_format(detail, idx, local_image=local_img)
+        mapped = map_to_website_format(detail, len(website_prompts) + 1, local_image=local_img)
         if mapped["prompt"] or mapped["image"]:
             website_prompts.append(mapped)
+            new_count += 1
+
+    # Sort by date descending to keep newest first
+    website_prompts.sort(key=lambda x: x.get("date", ""), reverse=True)
+    # Reassign sequential IDs after sort/merge
+    for idx, p in enumerate(website_prompts, start=1):
+        p["id"] = idx
 
     with open(args.output, "w", encoding="utf-8") as f:
         json.dump(website_prompts, f, ensure_ascii=False, indent=2)
 
-    print(f"\nDone! Wrote {len(website_prompts)} prompts to {args.output}")
+    print(f"\nDone! Wrote {len(website_prompts)} prompts to {args.output} ({new_count} new)")
     print(f"Raw list saved to {args.raw_output}")
     print(f"Raw details saved to {resume_detail_path}")
     if args.download_images:

@@ -84,6 +84,9 @@ python tools/scraper.py --max-items 500 --delay 0.6
 
 # Lấy tất cả prompt (20,717) — CHỈ CHẠY KHI ĐÃ ĐƯỢC CHO PHÉP
 python tools/scraper.py --max-items 0 --delay 1.5 --download-images --image-delay 0.5
+
+# Gộp thêm prompt mới vào data/prompts.json hiện có (không mất dữ liệu cũ)
+python tools/scraper.py --max-items 200 --merge --delay 0.6 --download-images --image-delay 0.3
 ```
 
 ### Tham số scraper
@@ -100,6 +103,7 @@ python tools/scraper.py --max-items 0 --delay 1.5 --download-images --image-dela
 | `--output` | `data/prompts.json` | File JSON đầu ra cho website |
 | `--raw-output` | `data/revid_prompts_raw.json` | Cache list API |
 | `--resume` | false | Tiếp tục từ file cache đã có |
+| `--merge` | false | Gộp prompt mới vào `data/prompts.json` hiện có |
 | `--media-type` | `image` | Lọc `image`, `video`, hoặc `all` |
 
 ### Output scraper
@@ -112,11 +116,19 @@ python tools/scraper.py --max-items 0 --delay 1.5 --download-images --image-dela
 ### Ví dụ pipeline cập nhật định kỳ
 
 ```bash
-# Chạy 1 lần/ngày lấy 500 prompt mới
-python tools/scraper.py --max-items 500 --delay 0.6 --download-images --image-delay 0.3
+# Chạy 1 lần/ngày lấy 500 prompt mới nhất, gộp vào kho dữ liệu hiện có
+python tools/scraper.py --max-items 500 --merge --delay 0.6 --download-images --image-delay 0.3
 ```
 
+Scraper sẽ:
+1. Fetch 500 prompt mới nhất từ API.
+2. Bỏ qua những prompt đã có trong `data/prompts.json` (dựa trên `source_id`).
+3. Thêm prompt mới vào cuối, sắp xếp lại theo ngày, gán lại ID.
+4. Tải ảnh của prompt mới về `assets/revid/`.
+
 Sau đó commit `data/prompts.json` và `assets/revid/` (nếu dùng ảnh local) lên repo.
+
+**Lưu ý**: với dataset lớn, nên bỏ `--download-images` để giữ URL ảnh gốc, tránh repo phình to.
 
 ---
 
