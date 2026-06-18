@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="f1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff9a9e"/>
+      <stop offset="1" stop-color="#fecfef"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#f1)"/>
+  <path d="M0 200 Q 100 150 200 200 T 400 180 L 400 300 L 0 300 Z" fill="#ffffff55"/>
+  <path d="M0 240 Q 120 190 240 240 T 400 220 L 400 300 L 0 300 Z" fill="#ffffff77"/>
+  <circle cx="200" cy="100" r="40" fill="#fff6"/>
+  <text x="200" y="260" font-family="Segoe UI, sans-serif" font-size="16" font-weight="600" fill="#fff" text-anchor="middle" opacity="0.85">Flux Demo</text>
+</svg>

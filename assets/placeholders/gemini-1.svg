@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e0c3fc"/>
+      <stop offset="1" stop-color="#8ec5fc"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#g)"/>
+  <circle cx="320" cy="80" r="40" fill="#fff6" opacity="0.5"/>
+  <ellipse cx="200" cy="250" rx="160" ry="40" fill="#ffffff44"/>
+  <path d="M100 230 Q 160 160 220 210 T 340 180" fill="none" stroke="#ffffff55" stroke-width="12" stroke-linecap="round"/>
+  <text x="200" y="100" font-family="Segoe UI, sans-serif" font-size="48" font-weight="800" fill="#ffffff" text-anchor="middle" opacity="0.9">✦</text>
+  <text x="200" y="150" font-family="Segoe UI, sans-serif" font-size="16" font-weight="600" fill="#fff" text-anchor="middle" opacity="0.85">Gemini Demo</text>
+</svg>

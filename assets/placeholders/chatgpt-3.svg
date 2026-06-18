@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="c3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e1e2f"/>
+      <stop offset="1" stop-color="#d4fc79"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#c3)"/>
+  <rect x="80" y="70" width="240" height="160" rx="10" fill="#ffffff22" stroke="#10a37f" stroke-width="2"/>
+  <text x="200" y="150" font-family="Segoe UI, sans-serif" font-size="20" font-weight="800" fill="#10a37f" text-anchor="middle">PROMPT</text>
+  <text x="200" y="180" font-family="Segoe UI, sans-serif" font-size="12" fill="#fff" text-anchor="middle" opacity="0.7">ChatGPT Demo</text>
+</svg>

@@ -1,0 +1,952 @@
+[
+  {
+    "id": 1,
+    "title": "KOC nữ json prompt 1",
+    "tool": "nano-banana",
+    "desc": "KOC nữ json prompt 1",
+    "prompt": "{\n  \"project_type\": {\n    \"name\": \"Ultra-Realistic Outdoor Selfie Portrait\",\n    \"style\": \"Photorealistic beauty photography\",\n    \"aspect_ratio\": \"4:5\",\n    \"image_count\": 1,\n    \"resolution\": \"8K\",\n    \"quality\": \"ultra-detailed\",\n    \"realism\": \"maximum\"\n  },\n  \"reference_image\": {\n    \"use_attached_image\": true,\n    \"identity_lock\": true,\n    \"identity_strength\": 100,\n    \"priority\": \"maximum\",\n    \"requirements\": [\n      \"Use the attached image as the ONLY facial identity reference\",\n      \"Preserve exact facial structure, eyes, eyebrows, nose, lips, jawline, cheek contours, and facial proportions\",\n      \"Maintain the exact facial identity from the reference image\",\n      \"No facial modification\",\n      \"No facial redesign\",\n      \"No beautification that changes identity\",\n      \"No face swapping\",\n      \"No identity drift\",\n      \"Do not generate a different woman\",\n      \"Keep all facial features exactly as they appear in the reference image\"\n    ]\n  },\n  \"subject\": {\n    \"gender\": \"female\",\n    \"age_appearance\": \"early 20s\",\n    \"expression\": {\n      \"mood\": \"candid, spontaneous, relaxed\",\n      \"eyes\": \"looking upward and to the right, away from the camera lens\",\n      \"mouth\": \"slightly parted with natural visible teeth\",\n      \"emotion\": \"youthful, dreamy, authentic\"\n    },\n    \"hair\": {\n      \"color\": \"dark brown\",\n      \"length\": \"long\",\n      \"style\": \"loose soft waves\",\n      \"parting\": \"center part\",\n      \"volume\": \"full and voluminous\",\n      \"texture\": \"slightly messy, windblown\",\n      \"details\": [\n        \"natural flyaways\",\n        \"hair cascading over shoulders\",\n        \"hair framing the face naturally\"\n      ]\n    },\n    \"makeup\": {\n      \"style\": \"Douyin beauty makeup\",\n      \"skin\": \"smooth porcelain skin\",\n      \"eyes\": {\n        \"contact_lenses\": \"soft gray\",\n        \"eyelashes\": \"long separated doll-like lashes\"\n      },\n      \"blush\": {\n        \"color\": \"soft pink\",\n        \"placement\": [\n          \"apples of cheeks\",\n          \"tip of nose\"\n        ]\n      },\n      \"overall_effect\": \"youthful flushed appearance\"\n    },\n    \"accessories\": {\n      \"necklace\": \"delicate thin gold chain necklace\",\n      \"earring\": \"chunky green hoop earring visible on left ear\"\n    }\n  },\n  \"clothing\": {\n    \"top\": {\n      \"type\": \"fitted ribbed off-shoulder top\",\n      \"sleeves\": \"long sleeves\",\n      \"color\": \"creamy white\",\n      \"alternative_color\": \"pale beige\",\n      \"fabric\": \"horizontal ribbed knit texture\",\n      \"neckline\": \"wide straight boat-neck\",\n      \"exposure\": [\n        \"shoulders fully visible\",\n        \"collarbones fully visible\"\n      ],\n      \"fit\": \"body-hugging\"\n    }\n  },\n  \"pose\": {\n    \"shot_type\": \"high-angle selfie\",\n    \"camera_position\": \"above subject\",\n    \"arm_position\": \"extended arm holding camera\",\n    \"head_angle\": \"slightly tilted upward\",\n    \"gaze_direction\": \"upward and to the right\",\n    \"composition\": \"natural candid social-media selfie\"\n  },\n  \"environment\": {\n    \"location\": \"rooftop or balcony\",\n    \"time_of_day\": \"dusk\",\n    \"lighting\": \"soft natural evening light\",\n    \"background\": {\n      \"sky\": {\n        \"color\": \"deep blue\",\n        \"clouds\": \"wispy white clouds\"\n      },\n      \"elements\": [\n        \"silhouetted tropical trees\",\n        \"palm tree silhouettes\",\n        \"building railing\",\n        \"rooftop structures\"\n      ]\n    }\n  },\n  \"photography\": {\n    \"style\": \"ultra-realistic beauty portrait\",\n    \"lens\": \"35mm smartphone selfie equivalent\",\n    \"depth_of_field\": \"moderate\",\n    \"focus\": \"sharp focus on face and eyes\",\n    \"lighting\": \"natural ambient dusk lighting\",\n    \"dynamic_range\": \"HDR\",\n    \"skin_texture\": \"realistic detailed skin texture\",\n    \"color_grading\": \"natural cinematic tones\",\n    \"detail_level\": \"extreme\",\n    \"render_quality\": \"masterpiece\"\n  },\n  \"negative_prompt\": [\n    \"different face\",\n    \"identity drift\",\n    \"face alteration\",\n    \"extra fingers\",\n    \"deformed hands\",\n    \"blurry image\",\n    \"low resolution\",\n    \"overprocessed skin\",\n    \"plastic skin\",\n    \"unrealistic anatomy\",\n    \"crooked eyes\",\n    \"asymmetrical face\",\n    \"duplicate accessories\",\n    \"multiple earrings\",\n    \"extra people\",\n    \"cartoon style\",\n    \"anime style\",\n    \"cgi look\",\n    \"watermark\",\n    \"text\",\n    \"logo\"\n  ]\n}",
+    "tags": [
+      "nano-banana-pro",
+      "general",
+      "image"
+    ],
+    "image": "assets/revid/21220.jpg",
+    "date": "2026-06-12",
+    "popular": 1,
+    "source_id": 21220,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 2,
+    "title": "Prompt tốt nghiệp - Nguyễn Nhật Nguyên",
+    "tool": "chatgpt",
+    "desc": "Prompt tốt nghiệp - Nguyễn Nhật Nguyên",
+    "prompt": "Giới tính: [bé trai / bé gái]\n \nTuổi: [nhập tuổi]\n \nTên: [nhập tên]\n \nLớp: [nhập lớp]\n \nTrường: [nhập tên trường]\n \nNiên khóa: [ví dụ: 2025–2026]\n\nCreate a premium graduation scrapbook collage poster using the uploaded photo as the facial reference and main character identity.\nIMPORTANT: Keep the same face and identity from the uploaded image with natural facial consistency and recognizability.\nAutomatically adapt ALL styling based on the provided gender and age.\nAGE-BASED STYLE LOGIC:\nAges 3–5:\nkindergarten scrapbook style\nextra cute decorations\nteddy bears\ncrayons\nplayful props\nchildish expressions\nAges 6–11:\ncheerful elementary school style\nbooks and school accessories\nenergetic playful poses\ncolorful scrapbook decorations\nAges 12–15:\ntrendy middle school aesthetic\nstylish youthful vibe\nmodern scrapbook layout\ncleaner decoration balance\nAges 16–18:\ncinematic high school graduation aesthetic\nmature stylish poses\nelegant fashion-oriented styling\nminimal premium scrapbook decorations\nNO teddy bears\nNO childish props\nuse flowers, camera, headphones, yearbook, coffee cup, diploma, varsity-style accessories\nCreate a vertical 9:16 scrapbook-style collage poster with:\none large center portrait\nmultiple surrounding photo frames\nrealistic scrapbook layering\npremium composition\nclean visual hierarchy\nwhite sticker borders\nlayered paper cutout effects\npremium Korean scrapbook aesthetic\nCENTER PHOTO: Character standing confidently facing camera, holding age-appropriate graduation accessories, natural emotional smile, cinematic graduation atmosphere.\nSURROUNDING PHOTOS: Generate multiple natural poses appropriate for the age:\nconfident standing pose\npeace sign ✌️\ncandid laughing\nlooking away pose\ngraduation cap adjustment\nholding diploma\nstylish portrait pose\nnatural interaction pose\nOUTFIT: Generate an age-appropriate graduation outfit:\npremium graduation gown\nrealistic academic graduation cap (mortarboard)\nstructured square graduation cap\ncentered flat top design\nrealistic fabric texture\nproperly fitted on the head\nnatural tassel placement hanging from the side\nelegant academic styling\nrealistic folds and fabric details\nmodern school graduation photography aesthetic\nFor younger children:\nslightly oversized cute graduation cap proportions\nFor older teens:\nrealistic cinematic high-school graduation styling\nfashionable premium academic look\nslightly tilted graduation cap for stylish portrait photography\navoid distorted graduation caps or malformed hat structure\nBACKGROUND: Warm cinematic outdoor bokeh, golden sunlight, soft natural lighting, dreamy atmosphere, soft depth of field, premium graduation photography atmosphere.\nDECORATIONS: Automatically adapt decoration density by age:\nyounger children → more stickers and doodles\nolder teens → cleaner premium composition\nDecorations may include:\nhearts\nstars\nribbons\nflowers\npaper airplane\nnotebook doodles\nsparkles\nstationery elements\nTYPOGRAPHY: Display the provided:\nname\nclass\nschool name\nschool year\nusing stylish Vietnamese typography and elegant scrapbook-style layout.\nMain title: “Happy Graduation”\nTEXT RULES: All visible text inside the artwork must be written in Vietnamese with proper accents. Use clean readable Vietnamese typography. Avoid distorted AI-generated text artifacts.\nAUTO QUOTES SYSTEM: Generate 5–8 short Vietnamese scrapbook-style captions based on:\ngender\nage\nschool level\nCaption tone:\nboys → playful, funny, energetic\ngirls → sweet, cute, emotional\nAge tone:\nkindergarten → adorable and childish\nelementary → cheerful and playful\nmiddle school → trendy and youthful\nhigh school → emotional and cinematic\nKeep captions:\nshort\nnatural\ncolorful\nvisually suitable for scrapbook stickers\nSTYLE: premium Korean graduation scrapbook, luxury graduation poster, Pinterest aesthetic, cinematic portrait photography, high-end studio editing, ultra detailed, clean composition, soft pastel aesthetic, professional graduation poster quality, photorealistic identity consistency.\n[QUALITY] ultra detailed, realistic skin texture, cinematic lighting, 8K, premium editing, high-quality graduation collage poster",
+    "tags": [
+      "image-gpt-2",
+      "general",
+      "image"
+    ],
+    "image": "assets/revid/21219.jpg",
+    "date": "2026-05-15",
+    "popular": 22,
+    "source_id": 21219,
+    "source": "revidapi",
+    "model": "image-gpt-2",
+    "media_type": "image"
+  },
+  {
+    "id": 3,
+    "title": "4x4 Cute Sticker",
+    "tool": "chatgpt",
+    "desc": "4x4 Cute Sticker",
+    "prompt": "A cute Vietnamese sticker sheet of a person in this img, Multiple expressions and poses (happy, sad, sleepy, angry, surprised, cute, thinking, crying, eating). Soft lighting, clean white background, high detail, kawaii style, vibrant pastel colors. Each sticker has playful Vietnamese text like “chào buổi sáng”, “buồn ngủ quá”, “giận!”, “iu quá”, “wow!”, “ủa???”, “mlem mlem”, “duyệt!”, “ê nha!”. Rounded sticker layout, clean cut edges, arranged in a grid, high resolution, social media sticker pack style. chibi style, glossy skin, soft shadow, sticker outline, digital illustration, commercial sticker pack, consistent character design",
+    "tags": [
+      "image-gpt-2",
+      "general",
+      "image"
+    ],
+    "image": "assets/revid/21218.jpg",
+    "date": "2026-04-28",
+    "popular": 12,
+    "source_id": 21218,
+    "source": "revidapi",
+    "model": "image-gpt-2",
+    "media_type": "image"
+  },
+  {
+    "id": 4,
+    "title": "极简白背景下的全黑乳胶高定时尚大片",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @kingofdairyque — Nguồn: https://x.com/kingofdairyque/status/2008573764838322253",
+    "prompt": "Ultra-realistic high-fashion studio photography of a young adult woman standing in a full-body pose against a seamless pure white studio background. Her body proportions are natural and anatomically realistic, with subtle asymmetry and believable weight distribution. She stands confidently with hands resting on her hips, elbows slightly pulled back; one leg is gently bent at the knee, creating a natural hip curve and relaxed stance. Her long straight black hair is smoothly slicked back,falling past the shoulders with a natural sheen. Facial features are well-defined yet realistic: pronounced cheekbones, full lips with a soft glossy finish, and balanced facial proportions. Makeup is clean and editorial—subtle skin correction, visible natural skin texture (pores, micro-imperfections), even tone without a plastic look, and a sharp black eyeliner accentuating the eyes. She looks directly into the camera with calm, self-assured eye contact and a composed, slightly dominantexpression—confident but not exaggerated. Outfit: A strapless black glossy latex or PVC crop top, tightly fitted over the torso, realistically interacting with the body, showing natural tension, highlights, and light reflections. Matching high-waisted black glossy latex shorts, very short in length, hugging the hips and upper thighs with realistic material stretch and specular highlights. Thigh-high black glossy latex boots, reaching the upper thighs, form-fitting with smooth reflectivesurfaces and subtle material creases at natural bend points. Lighting & Camera: Professional studio lighting with soft key light and controlled fill, designed to emphasize realistic specular highlights on the latex while preserving natural body contours and depth. No harsh shadows. Shot with a fashion photography mindset, 50–85mm lens look, shallow but realistic depth of field, high optical sharpness without over-processing.Overall mood: Futuristic, high-fashion, bold and confident editorial aesthetic. Fully human, photorealistic appearance. Clean white background with no distractions, no artificial glow, no CGI look, no exaggerated perfection.",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21217.jpg",
+    "date": "2026-04-28",
+    "popular": 19,
+    "source_id": 21217,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 5,
+    "title": "笔触里的粉色轮滑鞋",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @heathergreen — Nguồn: https://x.com/heathergreen/status/2006188307428897168",
+    "prompt": "A pair of pink roller skates is depicted in a close-up, low-angle shot against a dark, textured background. The skates are the central focus, with their laces loosely tied and trailing. The wheels of the skates are a peachy-pink color, and the overall impression is one of a painted, somewhat abstract artwork with visible brushstrokes and drips of paint. The background is a mix of black, with hints of teal and pink, creating a moody and artistic atmosphere.",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21216.jpg",
+    "date": "2026-04-28",
+    "popular": 12,
+    "source_id": 21216,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 6,
+    "title": "四格漫画 (相对论)",
+    "tool": "nano-banana",
+    "desc": "四格漫画 (相对论)",
+    "prompt": "make a colorful page of manga describing the theory of relativity. add some humor",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21215.png",
+    "date": "2026-04-28",
+    "popular": 25,
+    "source_id": 21215,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 7,
+    "title": "创建你自己的GTA角色",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @Anima_Labs — Nguồn: https://x.com/Anima_Labs/status/1924135446629728712",
+    "prompt": "Act as a creative director at Rockstar Games. Create a fictional GTA VI character sheet in the exact same style as the official GTA VI promotional images.\n\nThe layout must be:\n\nA horizontal character sheet, with the character on the right, in a dynamic pose that reflects their personality.\nOn the left, include the following structured text:\nA small \"VI\" logo at the top left (mention it visually).\nThe character’s name in big bold text.\nA catchy slogan or tagline right below in a different bright color.\nA short backstory (3–5 lines) written in an ironic, street-smart, or playful tone — just like Rockstar’s tone of voice.\n\nUse the vibrant Vice City aesthetic with sunset lighting, neon accents, and cel-shaded comic style. The character’s clothing, action, and environment must reflect their archetype and background.\n\nLet me customize the following variables:\n\nArchetype: {your choice}\n\nGender: {your choice}\n\nSkin tone: {your choice}\n\nHairstyle: {your choice}\n\nEmotion : {your choice}\n\nOutfit: {your choice}\n\nWeapon or action: {your choice}\n\nBackground details: {your choice}\n\nGenerate a fictive name in tittle and a description in english\n\nFormat the final result like a finished in-game asset reveal. The vibe should be over-the-top, stylish, and full of personality — as if part of the real GTA VI world.\n\n(if the \"Your choice\" sections are not filled with personalized information, it's up to you to generate it randomly by yourself) generate the visual directly from now on",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21214.png",
+    "date": "2026-04-28",
+    "popular": 26,
+    "source_id": 21214,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 8,
+    "title": "蜜蜂科学城",
+    "tool": "nano-banana",
+    "desc": "蜜蜂科学城",
+    "prompt": "创建图像 3D Q版迷你风格，一座蜂巢结构的甜蜜科研基地，建筑由六边形透明蜂蜡舱堆叠而成，顶部悬浮滴落蜂蜜的太阳花洒水器，外墙爬满发光花粉藤蔓。侧面延伸出蜂蜡滑梯与蒲公英降落伞，入口是旋转的向日葵转门。透过蜂巢窗可见内部试管操作台、蜜糖吊灯和穿白大褂的蜜蜂博士。花园里有驾驶花粉摩托的甲虫快递员、举着放大镜的蝴蝶研究员，搭配蜂蜜长椅、雏菊花洒喷泉和动态萤火虫光标，整体笼罩琥珀色光晕，打造超现实昆虫科学城的萌趣生态。",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21213.png",
+    "date": "2026-04-28",
+    "popular": 3,
+    "source_id": 21213,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 9,
+    "title": "刺绣插图风格",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @Artedeingenio — Nguồn: https://x.com/Artedeingenio/status/1924032621220188340",
+    "prompt": "A handcrafted illustration that simulates traditional embroidery using colorful threads on linen fabric. All elements are “stitched” with visible yarn textures, using techniques like satin stitch, backstitch, and French knots. Raised contours and directional thread flow create a tactile, cozy appearance. The background is made of woven linen, with gentle pastel or folk-inspired colors. The composition is friendly and magical, evoking a storybook charm. Include decorative details such as flowers, suns, clouds, trees or symbols to enhance the folk embroidery style.",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21212.png",
+    "date": "2026-04-28",
+    "popular": 2,
+    "source_id": 21212,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 10,
+    "title": "刺绣肖像",
+    "tool": "nano-banana",
+    "desc": "*注意：可替换提示词中的 `[subject]`和`[colors]` 为具体主题和颜色，例如 \"Elon Musk\", \"stitched with rich steel grey and electric blue\" 等。*\n\nTác giả: @azed_ai — Nguồn: https://x.com/azed_ai/status/1924042329700372929",
+    "prompt": "An embroidered portrait of Elon Musk, stitched with rich steel grey and electric blue thread on deep linen fabric. Visible needlework, layered textures, and handmade patterns give it an earthy, sacred feel.",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21211.png",
+    "date": "2026-04-28",
+    "popular": 13,
+    "source_id": 21211,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 11,
+    "title": "马斯克在公园画画",
+    "tool": "nano-banana",
+    "desc": "马斯克在公园画画",
+    "prompt": "创作一个逼真的户外场景，其中一位日本画家正在为马斯克画画。场景中，画家坐在画架前，而马斯克则坐在对面被描绘（不带任何卡通或动漫风格）。环境应充满生机,自然且阳光明媚——比如公园或热闹的户外场所。整体风格必须完全写实，唯独画家画架上的作品例外：那应该是马斯克的吉卜力风格动漫肖像，与周围的写实环境形成强烈对比。请确保画中人物是写实风格，画上的肖像才是动漫风格。",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21210.jpg",
+    "date": "2026-04-28",
+    "popular": 36,
+    "source_id": 21210,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 12,
+    "title": "金色抽象综合风格",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @firatbilal — Nguồn: https://x.com/firatbilal/status/1924130071758962938",
+    "prompt": "{\n    \"base_image\": \"uploaded image\",\n    \"style_transfer\": {\n        \"visual_characteristics\": {\n            \"head_and_face\": {\n                \"material\": \"translucent resin with embedded starlight and glowing neural circuits\",\n                \"surface_effect\": \"mirror-gloss with gold filament veins and galaxy-like reflections\",\n                \"lighting\": \"dynamic cinematic rim lights with volumetric glow\"\n            },\n            \"body_structure\": {\n                \"texture\": \"high-polish white ceramic with embedded gold wiring\",\n                \"design\": \"futuristic like organic plating\",\n                \"highlight_elements\": \"subtle internal light flows mimicking synaptic energy\"\n            },\n            \"motion_effect\": {\n                \"visual_glitch\": \"subtle horizontal motion blur on head edges\",\n                \"energy_flow\": \"faint pulsing particle lights across body\"\n            },\n            \"background\": {\n                \"type\": \"neutral gradient or dark void\",\n                \"focus\": \"emphasize figure's luminous contrast\"\n            }\n        },\n        \"application_target\": \"Replace surface and material style of uploaded image with the characteristics described above, while preserving the original pose, structure, and composition of the target image.\"\n    }\n}",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21209.png",
+    "date": "2026-04-28",
+    "popular": 2,
+    "source_id": 21209,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 13,
+    "title": "品牌之爱话术",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @aziz4ai — Nguồn: https://x.com/aziz4ai/status/1924046710218645932",
+    "prompt": "A romantic square-format bouquet inspired by [Brand Name]. Roses are crafted from visual patterns or textures that reflect the brand’s identity. The bouquet is wrapped in luxurious material echoing the brand’s signature style (e.g. silk, velvet, leather), and elegantly tied with one of the brand’s iconic products, replacing a traditional ribbon. Place it on a surface that matches the brand’s aesthetic. Add a message card beside the bouquet with a short, emotional 3-word slogan representing the brand’s spirit. Include the [Brand Name] logo subtly in the scene. Cinematic lighting, ultra-detailed, elegant depth of field, premium editorial quality.",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21208.jpeg",
+    "date": "2026-04-28",
+    "popular": 33,
+    "source_id": 21208,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 14,
+    "title": "青花瓷风格",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @firatbilal — Nguồn: https://x.com/firatbilal/status/1923627963251052769",
+    "prompt": "Using the uploaded image as the exact visual base, transform it into a hyper-realistic 3D object that retains the original shape and proportions of the logo only. Apply traditional Ottoman Iznik ceramic textures—featuring a warm white glazed base with delicate crackle lines, overlaid with vivid cobalt blue, turquoise, and bold red floral motifs such as tulips, carnations, and arabesque vines. The entire logo should be treated as a standalone porcelain sculpture with raised, hand-painted detailing and no background plate or tile structure. Ensure the decorative patterns elegantly follow the contours of the Bugatti logo, without altering its form. Render the object in a pure black background with Cinema 4D-style product lighting—highlighting realistic ceramic gloss, material depth, and subtle reflections. The final result should feel like a luxurious handcrafted ceramic reinterpretation, balancing heritage ornamentation with industrial branding.",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21207.png",
+    "date": "2026-04-28",
+    "popular": 13,
+    "source_id": 21207,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 15,
+    "title": "熔化变异文本",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @gnrlyxyz — Nguồn: https://x.com/gnrlyxyz/status/1924102927154626885",
+    "prompt": "Create a psychedelic, grotesque cartoon-style text design that says “GNARLY”. Arrange the letters in a straight horizontal line. Each letter should be lumpy, melting, and oozing with bright, clashing flat colors like slime green, neon yellow, and hot pink. Each letter must be filled with only one solid flat color, with no gradients or transitions. All drips, melts, and oozes must be solid black with no shading or gradient. Make the design vector-friendly with clean, solid fills and bold black outlines. Add extra black and white eyeballs to make each letter feel like a weird mutated creature. Keep the composition chaotic but readable, like a mutant version of a Saturday morning cartoon. Black background. Square aspect ratio.",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21206.png",
+    "date": "2026-04-28",
+    "popular": 12,
+    "source_id": 21206,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 16,
+    "title": "创意广告",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @azed_ai — Nguồn: https://x.com/azed_ai/status/1924090458298609881",
+    "prompt": "A high-impact advertisement set against a clean, dark or high-contrast background. A [product] is centered, sharply lit and highly detailed. Around it, surreal, stylized visual [elements] illustrations explode outward (e.g., musicians, runners, curls, sunbursts), vibrant color palette, neon. bold uppercase ad copy at the top that reads [TEXT] and the brand logo at the bottom, modern Ad",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21205.png",
+    "date": "2026-04-28",
+    "popular": 23,
+    "source_id": 21205,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 17,
+    "title": "品牌星球世界",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @TheRelianceAI — Nguồn: https://x.com/TheRelianceAI/status/1923064017477628160",
+    "prompt": "Planet [Brand name], Year 3025. A distant world shaped entirely by the essence of the brand. The landscapes echo its core identity — from surreal terrains to fantastical weather patterns. Native flora and fauna embody its signature ingredients and aesthetics. Rivers flow with iconic flavors. Architecture is inspired by its packaging and visual language, fused with futuristic technology. The atmosphere is rich in texture, cinematic lighting, and surreal detail. A dreamlike vision of brand identity reimagined as a sci-fi utopia.",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21204.png",
+    "date": "2026-04-28",
+    "popular": 13,
+    "source_id": 21204,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 18,
+    "title": "树屋",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @TheRelianceAI — Nguồn: https://x.com/TheRelianceAI/status/1923451797869371701",
+    "prompt": "A quiet morning in a luxury treehouse retreat created by [BRAND NAME] — golden light pours through windows framed in the brand’s signature colors. A cozy seating area features playful, thematic furniture, and a circular rug inspired by [BRAND SYMBOL OR PRODUCT]. The coffee table bears the embossed logo, while a screen on the wall loops the phrase: “[BRAND SLOGAN].” A curated display of iconic items adds a sense of nostalgia. Subtle ambient lighting glows in brand tones, and a tray with signature treats sits near the window. It’s cozy, imaginative, and unmistakably [BRAND NAME]",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21203.png",
+    "date": "2026-04-28",
+    "popular": 3,
+    "source_id": 21203,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 19,
+    "title": "Emoji变成一个花盆",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @azed_ai — Nguồn: https://x.com/azed_ai/status/1923739813414568075",
+    "prompt": "A high-quality photo of a cute ceramic [object/animal]-shaped planter with a glossy finish, filled with a variety of vibrant succulents and greenery including a spiky Haworthia, a rosette-shaped Echeveria, and delicate white flowers. The planter has a friendly face and sits on a soft, neutral background with diffused natural lighting, showcasing fine textures and color contrast in a clean, minimalistic composition",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21202.png",
+    "date": "2026-04-28",
+    "popular": 22,
+    "source_id": 21202,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 20,
+    "title": "品牌我的世界风格",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @TheRelianceAI — Nguồn: https://x.com/TheRelianceAI/status/1923757741262164427",
+    "prompt": "\"A Minecraft-style voxel recreation of a [BRAND NAME] [OBJECT], built entirely from pixelated cubes — detailed voxel modeling, signature brand colors and logo, blocky textures, clean lighting, stylized yet recognizable, 3D render, high resolution, playful and creative interpretation",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21201.png",
+    "date": "2026-04-28",
+    "popular": 14,
+    "source_id": 21201,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 21,
+    "title": "未来一瞥",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @TheRelianceAI — Nguồn: https://x.com/TheRelianceAI/status/1921900687689941197",
+    "prompt": "A cinematic rendering of [subject] walking through a rain-soaked street at night, illuminated by moody neon lights, reflections dancing on wet pavement, and a hazy urban skyline in the background. The subject feels alive, caught between solitude and electricity.",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21200.png",
+    "date": "2026-04-28",
+    "popular": 23,
+    "source_id": 21200,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 22,
+    "title": "透明塑料袋装物体",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @azed_ai — Nguồn: https://x.com/azed_ai/status/1923376928918327386",
+    "prompt": "A high-resolution photograph of a clear plastic drawstring bag placed on a light gray background. Inside the bag are multiple tiny 3D [subject] figures arranged neatly. The bag is tied with a soft white ribbon and has a black label tag that reads ‘[LABEL TEXT]’. Soft lighting and clean shadows emphasize the realistic textures and details",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21199.jpeg",
+    "date": "2026-04-28",
+    "popular": 2,
+    "source_id": 21199,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 23,
+    "title": "产品变成纸玻璃",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @aziz4ai — Nguồn: https://x.com/aziz4ai/status/1923449494898618849",
+    "prompt": "[Product by Brand] in a surreal, minimalist paper-glass style advertisement.\nThe product is centered, crafted from translucent frosted glass-paper, placed against a clean white or softly tinted background.\nSoft cinematic lighting creates gentle contrast and ambient shadows.\nA single brand color subtly interacts with the scene through glow, mist, liquid, or foam.\nInclude a bold, elegant 4-word slogan near the product.\nThe brand logo appears subtly etched, glowing, or printed in a refined manner.\nVertical or square aspect ratio, ultra-detailed, poster-quality, visually soothing and conceptually refined.",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21198.jpeg",
+    "date": "2026-04-28",
+    "popular": 45,
+    "source_id": 21198,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 24,
+    "title": "自定义气球",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @ZHO_ZHO_ZHO — Nguồn: https://x.com/ZHO_ZHO_ZHO/status/1924121078559125841",
+    "prompt": "一件高度写实的 3D 装置艺术：字母 Z 被设计成充气球囊造型，整体形态如同流畅弯曲的“Z”字路径，由两段斜线和一个折角构成，边缘略微卷翘，充满柔软的气压感。\n\n视角为正面稍仰视角（约10°）的正交投影，主体置于画面正中央，占据几乎全部画幅，背景为纯黑色，形成类似剧院聚光灯的聚焦舞台效果。\n\n材质为高弹性亮面 PVC，表面涂有高光清漆。主色为柔亮粉色（#FF96AC），阴影部分渐变为淡紫粉色，表面同时具备镜面高光和柔和漫反射，呈现丝滑、饱满、有张力的视觉质感。\n\n左下角可见一个金属螺旋气嘴（银灰色），尺寸很小但极具真实感，暗示其为充气物体。右下笔画末端印有一串黑色的警示文字和安全图标，以“ZHOGUE”风格排版，呼应充气玩具视觉语言。\n\n主光源来自左上方约 35°，呈现清晰的硬边聚光灯效果：在顶部折角与中央斜线区域形成椭圆形白色高光，内折阴影区带有柔和的粉紫色内反射。\n\n辅光来自右后方，轻柔描边顶部和转折边缘，使形体与黑背景分离，整体光比约为 1:2，保持色彩通透与立体感。亮区色温偏冷，营造冷暖对比，进一步突显质感。\n\n球囊表面略显鼓胀，折角与转折区域有尖锐的折痕，带来软体与几何的视觉张力。最深的转折处投下细长阴影，仿佛即将破裂；下方末端则有轻微拉扯感，如气球尾部即将被牵动。\n\n整体概念融合了字母结构与充气玩具的材质语言，通过夸张体积、真实光感与极简舞台感构建出“字母也能呼吸”的视觉冲击，呈现理性几何与感性触觉的碰撞。",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21197.jpeg",
+    "date": "2026-04-28",
+    "popular": 4,
+    "source_id": 21197,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 25,
+    "title": "平面设计等边风格",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @Artedeingenio — Nguồn: https://x.com/Artedeingenio/status/1924388407939076377",
+    "prompt": "A flat isometric digital illustration of [describe the subject: e.g., a modern workspace, a city block, a group of app icons, a sports shop], clean lines and geometric forms, bright pastel colors, simplified perspective with 3D depth, minimal shading, white background or light gradient. Style resembles modern vector infographics, ideal for UI, app design or web visuals.",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21196.png",
+    "date": "2026-04-28",
+    "popular": 35,
+    "source_id": 21196,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 26,
+    "title": "新市场中的美妆品牌",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @azed_ai — Nguồn: https://x.com/azed_ai/status/1924439540028313693",
+    "prompt": "A product photography shot of a [PRODUCT] inspired by [FOOD BRAND], placed against a soft light gray background. The product is sharply focused with soft studio lighting. The packaging design includes the official [FOOD BRAND] logo and reflects the brand’s colors and style. The product is sleek, glossy, and realistic, with high detail and elegant presentation. No food items, just the makeup product. Include only the makeup item in the shot. Modern aesthetic, luxury cosmetic branding",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21195.png",
+    "date": "2026-04-28",
+    "popular": 14,
+    "source_id": 21195,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 27,
+    "title": "按键删除周一",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @michaelrabone — Nguồn: https://x.com/michaelrabone/status/1924374502529438005",
+    "prompt": "Detailed photographic image of a miniature person in bed feeling cranky under an opened 'Delete Monday' keyboard keycap, using the inside of the keycap as a mini bedroom complete with the usual bedroom stuff",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21194.jpeg",
+    "date": "2026-04-28",
+    "popular": 33,
+    "source_id": 21194,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 28,
+    "title": "水流身份",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @aziz4ai — Nguồn: https://x.com/aziz4ai/status/1924325011847884979",
+    "prompt": "An ultra-high resolution 8K cinematic render of the [Brand Name] logo, sculpted entirely from flowing crystal-clear water. The liquid forms every curve and edge of the brand’s logo with fluid precision, highlighted by vibrant neon accents inspired by [Brand Name]’s color identity. The background is pitch black, creating sharp contrast and drama. The lighting is dynamic, revealing sharp reflections, glowing edges, and the motion of water as it ripples and splashes. Droplets, shine, and soft glass-like textures give the logo a surreal, luxurious, and futuristic appearance — poster-quality, 1:1 format.",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21193.jpeg",
+    "date": "2026-04-28",
+    "popular": 13,
+    "source_id": 21193,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 29,
+    "title": "狭窄走廊里奔跑",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @B_4AI — Nguồn: https://x.com/B_4AI/status/1924410511392719343",
+    "prompt": "A thrilling 3D cartoon scene: [CHARACTER1] runs through a narrow corridor inside [Place], chased at high speed by [CHARACTER2]. Their facial expressions reflect tension and focus, with beads of sweat glistening under dramatic lighting.",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21192.png",
+    "date": "2026-04-28",
+    "popular": 12,
+    "source_id": 21192,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 30,
+    "title": "超写实拼图肖像",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @ZHO_ZHO_ZHO — Nguồn: https://x.com/ZHO_ZHO_ZHO/status/1923999321634283862",
+    "prompt": "高分辨率的摄影棚人像，一位惊艳年轻模特「安妮海瑟薇」为主角。她拥有一头顺直的黑发，背景为白色，无任何可辨识的元素。她的脸略微侧转，但目光直视镜头，目光强烈而专注，毫无动摇。\n\n她整张脸由拼图块组成——每一块都清晰可见，边缘整齐，具备细腻的立体感。她轻柔地用手指捏着一块刚从脸颊取下的拼图块，露出其下方一个空洞的黑色虚空。\n\n光线集中且具方向性，几乎不产生阴影，但准确地勾勒出皮肤的轮廓与拼图结构的立体感。整体氛围超现实、精准且高度写实。\n\n顶部有像时尚杂志一样的标题“ZHOGUE”（在人物后面）",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21191.jpeg",
+    "date": "2026-04-28",
+    "popular": 43,
+    "source_id": 21191,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 31,
+    "title": "品牌奢华之物从天而降",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @hc_dsn — Nguồn: https://x.com/hc_dsn/status/1924390055231287650",
+    "prompt": "Create a image with 1:1 ratio\na dreamy brand ad of [Brand], a brand designed bubble-like capsule with brand color parachute packaging their classic product, against blue sky and other blurry parachute packaging, white cloud, a small brand logo on top, a tiny slogan beneath it, cinematic day lighting, lens flare, dof, hdr",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21190.png",
+    "date": "2026-04-28",
+    "popular": 24,
+    "source_id": 21190,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 32,
+    "title": "公司金币",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @umesh_ai — Nguồn: https://x.com/umesh_ai/status/1924526898840822207",
+    "prompt": "Prompt: A high-resolution photograph of a gold coin featuring the [COMPANY NAME] logo at the center. The coin should have the year [YEAR] engraved at the top. Include finely detailed engravings, ornamental border patterns, and authentic coin textures like reeded edges, matte",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21189.jpeg",
+    "date": "2026-04-28",
+    "popular": 44,
+    "source_id": 21189,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 33,
+    "title": "面包形态",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @azed_ai — Nguồn: https://x.com/azed_ai/status/1924479430157812140",
+    "prompt": "A highly realistic sculpture of a [object], made entirely from [bread type] with ultra-detailed texture and color. The surface shows the natural properties of the bread, golden-brown, glossy, flaky or crusty, with visible layers or seeds where appropriate, studio lighting, soft",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21188.png",
+    "date": "2026-04-28",
+    "popular": 2,
+    "source_id": 21188,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 34,
+    "title": "卡通风格文本标志",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @gnrlyxyz — Nguồn: https://x.com/gnrlyxyz/status/1924466922545877098",
+    "prompt": "Create a bold, warped cartoon-style text design with two distinct layers. The top layer should say “SUPER GNARLY” in warped bubble letters with a melty, drippy texture, like ghost slime or goo. The letters should feel heavy and organic, with a slightly psychedelic or paranormal vibe. The bottom layer should say “SOCIETY” in much smaller, script-like or handwritten-style letters that tuck underneath or nestle between the larger title letters. Both layers should be solid white with thick black outlines. No gradients, shading, or texture. Layout should be playful and a little chaotic, but still readable. Vector friendly. Blue background. Square aspect ratio.",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21187.png",
+    "date": "2026-04-28",
+    "popular": 12,
+    "source_id": 21187,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 35,
+    "title": "云的艺术",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @umesh_ai — Nguồn: https://x.com/umesh_ai/status/1924473546216292441",
+    "prompt": "A photograph captures a daytime scene with a [SUBJECT/OBJECT] formed by scattered clouds in the sky, positioned above a [LOCATION]",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21186.jpeg",
+    "date": "2026-04-28",
+    "popular": 4,
+    "source_id": 21186,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 36,
+    "title": "人物戏剧夸张风格",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @dotey — Nguồn: https://x.com/dotey/status/1924288320881750108",
+    "prompt": "A high-resolution vertical Pixar-style 3D character illustration.\n\nMain character:  \nSalvador Dalí — depicted as a tall, slim, and slightly exaggerated Pixar-style 3D character.  \nWearing a classic blue shirt, yellow tie, high-waisted plaid trousers with suspenders, and leather shoes.  \nHis iconic long upturned mustache, slick black hair, sharply arched eyebrows, and slightly eccentric posture.  \nStands with chest out, one hand on hip, head tilted slightly back in his typical theatrical flair.\n\nBackground:  \nFlat, clean yellow background with subtle surface texture.  \nStrong sunlight from top-left casts a distinct and enlarged shadow on the wall behind him.\n\nKey Concept – Shadow as spiritual projection:  \nThe shadow cast behind him does **not** mirror his body shape.  \nInstead, it takes the form of one of his most iconic artworks —  \na surreal melted clock with long dripping arms, inspired by “The Persistence of Memory”.\n\nThe melted clock shadow is positioned diagonally, starting from his shoulder,  \nstretching wide and low across the yellow wall, surreal and fluid, yet unmistakably symbolic.\n\nThis shadow is **Dalí’s legacy made visible** — a symbolic extension of his identity through time, dream, and visual distortion.\n\nLighting & Rendering:  \nPixar-like rendering with detailed but stylized textures.  \nUse subtle filmic grain, soft shadows, and warm color grading.  \nSubtle sparkles or light speckles inside the shadow to evoke dreamlike texture.\n\nTypography (top-left corner):  \n“Salvador Dalí” in minimalist black sans-serif font, “Dalí” bolded.",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21185.png",
+    "date": "2026-04-28",
+    "popular": 3,
+    "source_id": 21185,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 37,
+    "title": "复古像素UI图标",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @egeberkina — Nguồn: https://x.com/egeberkina/status/1924462051474174222",
+    "prompt": "retexture the image attached in the following json aesthetic style:\n{\n  \"style\": \"Retro Pixel UI Icons\",\n  \"resolution\": \"low (32x32 or 48x48)\",\n  \"color_palette\": [\n    \"#F2F2F2\",  \n    \"#C0C0C0\",  \n    \"#000000\", \n    \"#FFFFFF\",  \n    \"#0000FF\",  \n    \"#00FF00\",  \n    \"#FFFF99\",  \n    \"#008080\" \n  ],\n  \"outline\": {\n    \"enabled\": true,\n    \"color\": \"#000000\",\n    \"thickness\": \"1px\"\n  },\n  \"shading\": {\n    \"method\": \"dithering\",\n    \"colors_used\": [\"base color\", \"highlight\", \"shadow\"],\n    \"pattern\": \"checkerboard or diagonal lines\"\n  },\n  \"lighting\": {\n    \"type\": \"flat\",\n    \"source\": \"top-left\",\n    \"highlight_color\": \"#FFFFFF\",\n    \"shadow_color\": \"#808080\"\n  },\n  \"background\": {\n    \"color\": \"#F2F2F2\",\n    \"type\": \"plain\",\n    \"transparency\": false\n  },\n  \"object_properties\": {\n    \"style\": \"pixel art\",\n    \"perspective\": \"isometric or front-facing\",\n    \"animation\": {\n      \"enabled\": false,\n      \"frame_style\": \"static pixel art\"\n    }\n  }\n}",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21184.png",
+    "date": "2026-04-28",
+    "popular": 25,
+    "source_id": 21184,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 38,
+    "title": "马赛克壁画",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @azed_ai — Nguồn: https://x.com/azed_ai/status/1924405701985853714",
+    "prompt": "A mosaic mural of a [subject], crafted from chipped ceramic and glass shards in sun-faded [color1] and weathered [color2]. Set into a cracked plaster wall, the irregular shapes and grout lines add a rustic, timeworn charm.",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21183.png",
+    "date": "2026-04-28",
+    "popular": 22,
+    "source_id": 21183,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 39,
+    "title": "Logo放进我的世界中",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @alex_prompter — Nguồn: https://x.com/alex_prompter/status/1924503062325989836",
+    "prompt": "Recreate the [BRAND NAME] logo following the JSON Aesthetic below: {\n\"style\": \"Minecraft-style voxel 3D rendering\",\n\"logo_handling\": {\n\"adapt_to_uploaded_logo\": true,\n\"rebuild_logo_using_voxel_blocks\": true,\n\"use_original_logo_as_strict_pixel-color map\": true,\n\"preserve_text_in_logo\": true,\n\"preserve_text_case\": true,\n\"preserve_original_logo_colors\": true,\n\"preserve_shape_and_layout\": true\n\"aspect_ratio\": [INSERT ASPECT RATIO]\n},\n\"minecraft_conversion\": {\n\"voxel_depth\": \"medium thickness to show 3D volume\",\n\"block_style\": \"authentic Minecraft texture mapping\",\n\"color_strategy\": \"each block in the logo must match a pixel from the uploaded logo exactly — no estimation or stylistic substitution\",\n\"voxel_material_match\": \"map logo pixels to Minecraft block colors that visually match pixel color as closely as possible — no creative enhancements\",\n\"disable_palette_expansion\": true\n},\n\"scene_environment\": {\n\"base\": \"neutral terrain (gray concrete or light stone)\",\n\"background\": \"simple sky (clouds, no sun flare)\",\n\"optional_elements\": [\n\"Minecraft animals at a distance\",\n\"terrain vegetation in background only\"\n],\n\"environment_color_policy\": \"environment must not share colors used in the logo to prevent blending or confusion\"\n},\n\"lighting\": {\n\"neutral directional light\": true,\n\"do_not_adjust_logo_colors_for_lighting\": true,\n\"prevent_ambient_light_color_bleed\": true\n},\n\"camera\": {\n\"angle\": \"slightly top-down with 3D logo centered\",\n\"focus\": \"sharp focus on voxel logo only, environment softly rendered\"\n},\n\"render_quality\": {\n\"voxel_texture_resolution\": \"high\",\n\"shadows\": \"natural voxel-style ambient shadows only\",\n\"disable_artistic_effects\": true\n},\n\"post_processing\": {\n\"no glow effects\": true,\n\"no color correction\": true,\n\"disable AI reinterpretation of tones or palette\": true\n},\n\"image_constraints\": {\n\"transparent_background\": false,\n\"include_text\": true,\n\"preserve_text_case\": true,\n\"preserve_original_logo_colors\": true,\n\"obey_uploaded_logo_shape\": true,\n\"match_uploaded_logo_layout\": true,\n\"enforce_color_source_from_logo_only\": true\n},\n\"notes\": \"Rebuild the uploaded logo using Minecraft-style voxel blocks. Every block must represent one pixel from the logo's original image. No creative license is allowed in color, shape, or layout. The environment is decorative only and must not affect logo readability or color perception. The final image should appear as if the logo were physically constructed in a Minecraft world using blocks that match its exact colors and shapes.\"\n}",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21182.jpeg",
+    "date": "2026-04-28",
+    "popular": 14,
+    "source_id": 21182,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 40,
+    "title": "捷克木偶风格",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @AllaAisling — Nguồn: https://x.com/AllaAisling/status/1924231647894896732",
+    "prompt": "Hand-Carved Wooden Puppet (Czech Marionette Style)\n\nA hand-carved wooden marionette interpretation of [SUBJECT], with jointed limbs, painted details, and a slightly eerie antique finish. Showcase theatrical posture, stage lighting, and cultural craftsmanship in the styling.",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21181.png",
+    "date": "2026-04-28",
+    "popular": 2,
+    "source_id": 21181,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 41,
+    "title": "Airbnb风格的图标",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @hc_dsn — Nguồn: https://x.com/hc_dsn/status/1924665909073084507",
+    "prompt": "generate[concept] icon with this json style:\n{\n    \"icon_style\": {\n        \"perspective\": \"isometric\",\n        \"geometry\": {\n            \"proportions\": \"1:1 ratio canvas, with objects fitting comfortably within margins\",\n            \"element_arrangement\": \"central dominant object, with supporting elements symmetrically or diagonally placed\"\n        },\n        \"composition\": {\n            \"element_count\": \"2–4 main objects\",\n            \"spatial_depth\": \"layered to create sense of dimension and slight elevation\",\n            \"scale_consistency\": \"uniform object scale across icon set\",\n            \"scene_density\": \"minimal to moderate, maintaining clarity and visual focus\"\n        },\n        \"lighting\": {\n            \"type\": \"soft ambient light\",\n            \"light_source\": \"subtle top-right or front-top direction\",\n            \"shadow\": \"gentle drop shadows below and behind objects\",\n            \"highlighting\": \"mild edge illumination to define forms\"\n        },\n        \"textures\": {\n            \"material_finish\": \"semi-matte to satin surfaces\",\n            \"surface_treatment\": \"smooth with light tactile variation (e.g., wood grain, soft textures)\",\n            \"texture_realism\": \"stylized naturalism without hyper-realistic noise\"\n        },\n        \"render_quality\": {\n            \"resolution\": \"high-resolution octane 3D rendering\",\n            \"edge_definition\": \"crisp, no outlines; separation achieved via lighting and depth\",\n            \"visual_clarity\": \"clean, readable shapes with minimal clutter\"\n        },\n        \"color_palette\": {\n            \"tone\": \"naturalistic with slight saturation boost\",\n            \"range\": \"harmonious muted tones with gentle contrast\",\n            \"usage\": \"distinct colors per object to improve identification and readability\"\n        },\n        \"background\": {\n            \"color\": \"#FFFFFF\",\n            \"style\": \"pure white, flat\",\n            \"texture\": \"none\"\n        },\n        \"stylistic_tone\": \"premium, friendly, clean with lifestyle or service-oriented appeal\",\n        \"icon_behavior\": {\n            \"branding_alignment\": \"neutral enough for broad applications\",\n            \"scalability\": \"legible at small and medium sizes\",\n            \"interchangeability\": \"part of a cohesive icon system with interchangeable subject matter\"\n        }\n    }\n}",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21180.jpeg",
+    "date": "2026-04-28",
+    "popular": 13,
+    "source_id": 21180,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 42,
+    "title": "品牌领导骑行",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @aziz4ai — Nguồn: https://x.com/aziz4ai/status/1924527136657834468",
+    "prompt": "A cinematic 1:1 scene featuring the iconic leader of [Brand Name] riding a futuristic electric motorcycle that reflects the brand’s identity. He wears a high-detail black or brand-colored carbon fiber leather jacket, with the [Brand Name] logo embroidered boldly on the chest and",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21179.jpeg",
+    "date": "2026-04-28",
+    "popular": 22,
+    "source_id": 21179,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 43,
+    "title": "Logo超写实微型摄影",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @alex_prompter — Nguồn: https://x.com/alex_prompter/status/1923036265013801025",
+    "prompt": "Recreate this [BRAND NAME] logo follow the JSON aesthetic below: \n{\n    \"style\": \"hyperrealistic miniature photography\",\n    \"scene\": {\n        \"main_subject\": \"uploaded logo scaled to appear as a large physical object\",\n        \"interaction\": \"tiny human figures interacting with the logo\",\n        \"activities\": [\n            \"cleaning the logo\",\n            \"painting parts of the logo\",\n            \"climbing ladders on the logo surface\",\n            \"taking photographs of the logo\"\n        ],\n        \"environment\": \"studio-style white background to focus on details\",\n        \"perspective\": \"frontal view with shallow depth of field for macro effect\"\n    },\n    \"logo_handling\": {\n        \"preserve_original_logo_shape\": true,\n        \"preserve_original_logo_colors\": true,\n        \"preserve_text_in_logo\": true,\n        \"use_logo_as_structural_object\": true,\n        \"adapt_logo_to_3D_surface\": true\n    },\n    \"miniature_elements\": {\n        \"figure_scale\": \"1:50 ratio to logo\",\n        \"figure_details\": \"tiny realistic humans with props like brushes, ropes, and scaffolding\",\n        \"interaction_type\": \"physical interaction, not illustration or overlay\"\n    },\n    \"lighting\": {\n        \"key_light\": \"soft diffused white light from above\",\n        \"fill_light\": \"mild side fill to reveal depth and volume\",\n        \"shadows\": \"realistic and subtle around base and figures\"\n    },\n    \"camera\": {\n        \"focus_mode\": \"macro with shallow depth of field\",\n        \"angle\": \"slightly top-down to give sense of scale\",\n        \"background\": \"clean white surface, no gradient, no transparency\"\n    },\n    \"post_processing\": {\n        \"realism_enhancement\": \"preserve logo clarity, crisp text, no artistic blurring\",\n        \"forbid_artistic_filters\": true,\n        \"forbid_color_modifications\": true\n    },\n    \"image_constraints\": {\n        \"transparent_background\": false,\n        \"include_text\": true,\n        \"adapt_to_uploaded_logo\": true,\n        \"obey_logo_shape\": true,\n        \"preserve_original_logo_colors\": true\n    },\n    \"notes\": \"The uploaded logo must be clearly recognizable, unmodified, and serve as the core structural element of the scene. Tiny people should interact with the logo realistically, as if it were a large 3D object in a physical miniature world.\"\n}",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21178.jpeg",
+    "date": "2026-04-28",
+    "popular": 23,
+    "source_id": 21178,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 44,
+    "title": "网络矩阵梦境",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @LudovicCreator — Nguồn: https://x.com/LudovicCreator/status/1924382022002250151",
+    "prompt": "[SUBJECT] reinterpreted through Cyber Matrix Dreamscapes, where cascading streams of digital code form the immersive backdrop. Imbue the scene with radical neon [COLOR1] and luminous [COLOR2] accents to evoke a futuristic reality where art converges with algorithm",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21177.png",
+    "date": "2026-04-28",
+    "popular": 32,
+    "source_id": 21177,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 45,
+    "title": "卡通角色转换成超写实人类",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @The_Real_Bersek — Nguồn: https://x.com/The_Real_Bersek/status/1917174101627617752",
+    "prompt": "Transform the cartoon character from the reference image into a hyper-realistic human while maintaining their core attributes (clothing, hairstyle, facial expression, accessories, and proportions, age and so on). Create a photorealistic portrait",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21176.jpeg",
+    "date": "2026-04-28",
+    "popular": 13,
+    "source_id": 21176,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 46,
+    "title": "附魔粒子泛光",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @LudovicCreator — Nguồn: https://x.com/LudovicCreator/status/1925069047948849443",
+    "prompt": "[SUBJECT] surrounded by an Enchanted Particle Bloom, with particles resembling magical flower petals or leaves. Employ soft, enchanting hues of [COLOR1] and [COLOR2] to create a sense of natural magic.",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21175.png",
+    "date": "2026-04-28",
+    "popular": 3,
+    "source_id": 21175,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 47,
+    "title": "复古锡玩具立体模型风格",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @Artedeingenio — Nguồn: https://x.com/Artedeingenio/status/1920423915211375060",
+    "prompt": "transform it into part of a miniature mechanical scene from the 1940s or ’50s, featuring:\n\n➕Shiny enamel-painted metal characters and objects.\n➕Riveted details and visible joints.\n➕Illustrated cardboard backdrops with vintage charm.\n➕Wind-up toy-style settings with gears and wheels.",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21174.jpeg",
+    "date": "2026-04-28",
+    "popular": 34,
+    "source_id": 21174,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 48,
+    "title": "警方照片风格",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @Artedeingenio — Nguồn: https://x.com/Artedeingenio/status/1925475465029919163",
+    "prompt": "Transform this image into a realistic police mugshot.\nAdd a gray background with height markings, harsh frontal lighting, and a nameplate with the person's name and a case number.\nThe photo should look like an official FBI or police booking photo, vertical format (4:5), with a neutral expression and no accessories.",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21173.png",
+    "date": "2026-04-28",
+    "popular": 12,
+    "source_id": 21173,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 49,
+    "title": "简单的输入中构思和创建有影响力的图像",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @umesh_ai — Nguồn: https://x.com/umesh_ai/status/1925397022011527192",
+    "prompt": "Create a surrealistic image about diabetes that conveys the message in a powerful and influential way. Plan and prepare the visual concept and prompt, then generate the image as a photograph with a caption.",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21172.jpeg",
+    "date": "2026-04-28",
+    "popular": 3,
+    "source_id": 21172,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  },
+  {
+    "id": 50,
+    "title": "无声电影场景",
+    "tool": "nano-banana",
+    "desc": "Tác giả: @LudovicCreator — Nguồn: https://x.com/LudovicCreator/status/1925469185288572953",
+    "prompt": "[SUBJECT] depicted in a Sepia-Toned Silent Film Scene, evoking the drama and expression of early cinema. Use muted [COLOR1] and [COLOR2] sepia tones to enhance the nostalgic atmosphere",
+    "tags": [
+      "nano-banana-pro",
+      "creative",
+      "image"
+    ],
+    "image": "assets/revid/21171.png",
+    "date": "2026-04-28",
+    "popular": 3,
+    "source_id": 21171,
+    "source": "revidapi",
+    "model": "nano-banana-pro",
+    "media_type": "image"
+  }
+]

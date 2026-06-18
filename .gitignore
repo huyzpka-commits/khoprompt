@@ -1,0 +1,20 @@
+.DS_Store
+Thumbs.db
+node_modules/
+*.log
+.env
+.env.local
+.cache/
+dist/
+build/
+.vscode/
+.idea/
+
+# Scraper raw cache & temporary data
+data/*_raw.json
+data/*_details.json
+data/test_*.json
+
+# Python
+__pycache__/
+*.pyc
